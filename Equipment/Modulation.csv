@@ -1,0 +1,46 @@
+Model;Subcategories;Based_On
+Optical Trem;Mono, Stereo;Fender optical tremolo circuit
+60s Bias Trem;Mono, Stereo;Vox AC-15 Tremolo
+Tremolo/Autopan;Mono, Stereo;BOSS PN-2
+Harmonic Tremolo;Mono, Stereo;Line 6 Original
+Bleat Chop Trem;Mono, Stereo;Lightfoot LabsGoatkeeper
+Script Mod Phase;Mono, Stereo;MXR Phase 90
+Ubiquitous Vibe;Mono, Stereo;Shin-ei Uni-Vibe
+Deluxe Phaser;Mono, Stereo;Line 6 Original
+Gray Flanger;Mono, Stereo;MXR 117 Flanger
+Harmonic Flanger;Mono, Stereo;A/DA Flanger
+Courtesan Flange;Mono, Stereo;Electro-Harmonix Deluxe EM
+Dynamix Flanger;Mono, Stereo;Line 6 Original
+Chorus;Mono, Stereo;Line 6 Original
+70s Chorus;Mono, Stereo;BOSS CE-1
+PlastiChorus;Mono, Stereo;Modded Arion SCH-Z chorus
+Trinity Chorus;Stereo;Dytronics Tri-Stereo Chorus
+Bubble Vibrato;Mono, Stereo;BOSS VB-2 Vibrato
+Vibe Rotary;Stereo;Fender Vibratone
+122 Rotary;Stereo;Leslie 122
+145 Rotary;Stereo;Leslie 145
+Double Take;Mono, Stereo;Line 6 Original
+AM Ring Mod;Mono, Stereo;Line 6 Original
+Pitch Ring Mod;Stereo;Line 6 Original
+Pattern Tremolo;Legacy;Line 6 Original
+Panner;Legacy;Line 6 Original
+Bias Tremolo;Legacy;1960 Vox AC-15 Tremolo
+Opto Tremolo;Legacy;1964 Fender Deluxe Reverb
+Script Phase;Legacy;MXR Phase 90 (script logo version)
+Panned Phaser;Legacy;Ibanez Flying Pan
+Barberpole;Legacy;Line 6 Original
+Dual Phaser;Legacy;Mu-Tron Bi-Phase
+U-Vibe;Legacy;Shin-ei Uni-Vibe
+Phaser;Legacy;MXR Phase 90
+Pitch Vibrato;Legacy;BOSS VB-2
+Dimension;Legacy;Roland Dimension D
+Analog Chorus;Legacy;BOSS CE-1
+Tri Chorus;Legacy;Dytronics Tri-Stereo Chorus
+Analog Flanger;Legacy;MXR Flanger
+Jet Flanger;Legacy;A/DA Flanger
+AC Flanger;Legacy;MXR Flanger
+80A Flanger;Legacy;A/DA Flanger
+Frequency Shift;Legacy;Line 6 Original
+Ring Modulator;Legacy;Line 6 Original
+Rotary Drum;Legacy;Fender Vibratone
+Rotary Drum/Horn;Legacy;Leslie 145

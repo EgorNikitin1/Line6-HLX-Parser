@@ -1,0 +1,316 @@
+{
+ "data" : {
+  "device" : 2162694,
+  "device_version" : 50397184,
+  "meta" : {
+   "application" : "HX Edit",
+   "appversion" : 50331648,
+   "build_sha" : "v2.92-561-gcf93df1",
+   "modifieddate" : 1613322483,
+   "name" : "Freeze"
+  },
+  "tone" : {
+   "controller" : {
+    "dsp0" : {
+     "block2" : {
+      "Decay" : {
+       "@controller" : 3,
+       "@fs_enabled" : true,
+       "@fs_label" : "Decay",
+       "@fs_ledcolor" : 7077838,
+       "@fs_momentary" : false,
+       "@max" : 1.0,
+       "@min" : 0.60
+      },
+      "Mix" : {
+       "@controller" : 3,
+       "@fs_enabled" : true,
+       "@fs_label" : "Mix",
+       "@fs_ledcolor" : 7077838,
+       "@fs_momentary" : false,
+       "@max" : 1.0,
+       "@min" : 0.80
+      }
+     }
+    }
+   },
+   "dsp0" : {
+    "block0" : {
+     "@bypassvolume" : 1.0,
+     "@cab" : "cab0",
+     "@enabled" : true,
+     "@model" : "HD2_AmpJazzRivet120",
+     "@no_snapshot_bypass" : false,
+     "@path" : 0,
+     "@position" : 2,
+     "@type" : 3,
+     "Bass" : 0.40,
+     "Bright" : 0.0,
+     "ChVol" : 0.850,
+     "Drive" : 0.30,
+     "Master" : 0.850,
+     "Mid" : 0.50,
+     "Presence" : 0.50,
+     "Treble" : 0.70
+    },
+    "block1" : {
+     "@enabled" : true,
+     "@model" : "HD2_ReverbGanymede",
+     "@no_snapshot_bypass" : false,
+     "@path" : 0,
+     "@position" : 5,
+     "@stereo" : false,
+     "@trails" : true,
+     "@type" : 7,
+     "Decay" : 0.60,
+     "Level" : 0.0,
+     "Mix" : 0.30,
+     "Modulation" : 0.0,
+     "Predelay" : 0.0,
+     "Tone" : 1.0
+    },
+    "block2" : {
+     "@enabled" : true,
+     "@model" : "HD2_ReverbGanymede",
+     "@no_snapshot_bypass" : false,
+     "@path" : 1,
+     "@position" : 3,
+     "@stereo" : true,
+     "@trails" : true,
+     "@type" : 7,
+     "Decay" : 1.0,
+     "Level" : 0.0,
+     "Mix" : 1.0,
+     "Modulation" : 0.0,
+     "Predelay" : 0.0,
+     "Tone" : 1.0
+    },
+    "block3" : {
+     "@enabled" : true,
+     "@model" : "HD2_RotaryVibeRotary",
+     "@no_snapshot_bypass" : false,
+     "@path" : 1,
+     "@position" : 4,
+     "@type" : 0,
+     "Blend" : 0.50,
+     "Drive" : 0.0,
+     "FastSpeed" : 0.0,
+     "Headroom" : 0.0,
+     "Level" : 1.60,
+     "Mix" : 0.60,
+     "RampTime" : 0,
+     "SlowSpeed" : 0.0,
+     "Speed" : false,
+     "SyncSelect1" : 6,
+     "SyncSelect2" : 6,
+     "TempoSync1" : false,
+     "TempoSync2" : false
+    },
+    "cab0" : {
+     "@enabled" : true,
+     "@mic" : 2,
+     "@model" : "HD2_Cab2x12JazzRivet",
+     "Distance" : 1.0,
+     "EarlyReflections" : 0.0,
+     "HighCut" : 8000.0,
+     "Level" : 0.0,
+     "LowCut" : 80.0
+    },
+    "inputA" : {
+     "@input" : 1,
+     "@model" : "HelixStomp_AppDSPFlowInput",
+     "decay" : 0.50,
+     "noiseGate" : false,
+     "threshold" : -48.0
+    },
+    "inputB" : {
+     "@input" : 0,
+     "@model" : "HelixStomp_AppDSPFlowInput",
+     "decay" : 0.50,
+     "noiseGate" : false,
+     "threshold" : -48.0
+    },
+    "join" : {
+     "@enabled" : true,
+     "@model" : "HD2_AppDSPFlowJoin",
+     "@no_snapshot_bypass" : false,
+     "@position" : 6,
+     "A Level" : 5.0,
+     "A Pan" : 0.50,
+     "B Level" : 0.0,
+     "B Pan" : 0.50,
+     "B Polarity" : false,
+     "Level" : 0.0
+    },
+    "outputA" : {
+     "@model" : "HelixStomp_AppDSPFlowOutputMain",
+     "@output" : 1,
+     "gain" : 0.0,
+     "pan" : 0.50
+    },
+    "outputB" : {
+     "@model" : "HelixStomp_AppDSPFlowOutputSend",
+     "@output" : 0,
+     "Type" : true,
+     "gain" : 0.0,
+     "pan" : 0.50
+    },
+    "split" : {
+     "@enabled" : true,
+     "@model" : "HD2_AppDSPFlowSplitAB",
+     "@no_snapshot_bypass" : false,
+     "@position" : 3,
+     "RouteTo" : 0.0,
+     "bypass" : false
+    }
+   },
+   "dsp1" : {},
+   "footswitch" : {
+    "dsp0" : {
+     "block1" : {
+      "@fs_enabled" : true,
+      "@fs_index" : 1,
+      "@fs_label" : "Ganymede",
+      "@fs_ledcolor" : 16723200,
+      "@fs_momentary" : false
+     },
+     "block3" : {
+      "@fs_enabled" : true,
+      "@fs_index" : 1,
+      "@fs_label" : "Vibe Rotary",
+      "@fs_ledcolor" : 13055,
+      "@fs_momentary" : false
+     }
+    }
+   },
+   "global" : {
+    "@DtSelect" : 2,
+    "@PowercabMode" : 0,
+    "@PowercabSelect" : 2,
+    "@PowercabVoicing" : 0,
+    "@current_snapshot" : 0,
+    "@cursor_dsp" : 0,
+    "@cursor_group" : "",
+    "@cursor_path" : 0,
+    "@cursor_position" : 0,
+    "@guitarinputZ" : 0,
+    "@model" : "@global_params",
+    "@pedalstate" : 1,
+    "@tempo" : 120.0,
+    "@topology0" : "SABJ",
+    "@topology1" : 0
+   },
+   "snapshot0" : {
+    "@ledcolor" : 0,
+    "@name" : "SNAPSHOT 1",
+    "@pedalstate" : 0,
+    "@tempo" : 120.0,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : true,
+      "block1" : true,
+      "block2" : true,
+      "block3" : true,
+      "split" : true
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block2" : {
+       "Decay" : {
+        "@fs_enabled" : true,
+        "@value" : 1.0
+       },
+       "Mix" : {
+        "@fs_enabled" : true,
+        "@value" : 1.0
+       }
+      }
+     }
+    }
+   },
+   "snapshot1" : {
+    "@ledcolor" : 0,
+    "@name" : "SNAPSHOT 2",
+    "@pedalstate" : 0,
+    "@tempo" : 120.0,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : true,
+      "block1" : true,
+      "block2" : true,
+      "block3" : true,
+      "split" : true
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block2" : {
+       "Decay" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      }
+     }
+    }
+   },
+   "snapshot2" : {
+    "@ledcolor" : 0,
+    "@name" : "SNAPSHOT 3",
+    "@pedalstate" : 0,
+    "@tempo" : 120.0,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : true,
+      "block1" : true,
+      "block2" : true,
+      "block3" : true,
+      "split" : true
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block2" : {
+       "Decay" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      }
+     }
+    }
+   },
+   "variax" : {
+    "@variax_customtuning" : true,
+    "@variax_lockctrls" : 0,
+    "@variax_magmode" : false,
+    "@variax_model" : 0,
+    "@variax_str1tuning" : 0,
+    "@variax_str2tuning" : 0,
+    "@variax_str3tuning" : 0,
+    "@variax_str4tuning" : 0,
+    "@variax_str5tuning" : 0,
+    "@variax_str6tuning" : 0,
+    "@variax_toneknob" : -0.10,
+    "@variax_volumeknob" : -0.10
+   }
+  }
+ },
+ "meta" : {
+  "original" : 0,
+  "pbn" : 0,
+  "premium" : 0
+ },
+ "schema" : "L6Preset",
+ "version" : 6
+}
